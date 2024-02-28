@@ -1,0 +1,60 @@
+.container {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+h1 {
+  line-height: 5rem;
+}
+.boxs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.boxs .box {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border-right: 3px solid #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: 0.5s;
+}
+.box:active {
+  opacity: 0.6;
+}
+#rock {
+  background: #3c5059;
+}
+#paper {
+  background: #ffc107;
+}
+#scissors {
+  background: #8b0000;
+}
+.scores {
+  margin-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.scores .score {
+  border-bottom: 2px solid white;
+}
+.message {
+  margin-top: 5rem;
+  border: 1px solid #fff;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
